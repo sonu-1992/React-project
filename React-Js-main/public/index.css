@@ -1,0 +1,509 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  background-origin: 100%;
+  
+  
+}
+@media only screen and (min-width: 768px){
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+  width: 100%;
+  height: 100%;
+}
+}
+
+.BackImage{
+
+  position: absolute;
+  opacity: 0.8;
+  z-index: -1;
+  -webkit-box-reflect: below;
+  border-image-repeat: repeat;
+  
+}
+
+.ContactHeading{
+
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  left: 550px;
+  background-color: #DAEAF1;
+  margin-top: 60px;
+  bottom: 20px;
+  margin-bottom: 0;
+  width: 350px;
+  height: 60px;
+  padding-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  
+  color: black;
+  font-weight: 500;
+  border-color: #7D5A5A;
+  border: 2px solid;
+
+}
+
+.DivForm{
+
+  border-radius: 25px;
+  position: relative;
+  left: 460px;
+  bottom: 50px;
+  margin-top: 80px;
+  padding-top: 20px;
+  background-color: #DAEAF1;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  height: 610px;
+  width: 500px;
+  display: block;
+  padding-left: 40px;
+  border-color: #7D5A5A;
+  border: 2px solid;
+  
+}
+
+.container {
+  margin: 2px;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+
+#textArea {
+  width: 250px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+.SubmitB{
+  margin-left: 100px;
+}
+
+
+footer {
+  
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+  top: 40px;
+  width: 98rem;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #7D5A5A;
+}
+
+footer p {
+  color: #ccc;
+}
+
+form {
+  padding: 20px 0;
+  position: relative;
+}
+
+form input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: white;
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 20px;
+  margin: 0 0 10px 170px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+td{
+  padding-left: 20px;
+}
+
+table{
+  border-spacing: 20px;
+}
+
+
+
+.AboutUsc{
+
+  text-align: left;
+  border-radius: 25px;
+  position: relative;
+  left: 320px;
+  margin-top: 40px;
+  padding-top: 10px;
+  background-color: #DAEAF1;
+  color: black;
+  height: 590px;
+  width: 800px;
+  display: block;
+  word-spacing: 4px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  border-color: #7D5A5A;
+  border: 2px solid;
+
+}
+
+.AboutHeading{
+
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  left: 550px;
+  background-color: #DAEAF1;
+  margin-top: 70px;
+  bottom: 20px;
+  margin-bottom: 0;
+  color: black;
+  width: 350px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  border-color: #7D5A5A;
+  border: 2px solid;
+  
+
+}
+
+
+.AboutFooter{
+
+  padding-bottom: 20px;
+  position: absolute;
+  text-align: center;
+  top: 1800px;
+  width: 98rem;
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #7D5A5A;
+}
+
+.Info{
+
+  text-align: justify;
+  border-radius: 25px;
+  position: absolute;
+  margin-top: 40px;
+  padding-top: 10px;
+  background-color: #DAEAF1;
+  height: 400px;
+  display: block;
+  word-spacing: 4px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  line-height: 25px;
+  border-spacing: 10px;
+  border-color: #7D5A5A;
+  border: 2px solid;
+
+}
+
+.MainHeading{
+
+  text-align: center;
+  height: 110px;
+  padding-top: 20px;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 70px;
+  padding-left: 40px;
+
+}
+
+.HeadingHeader{
+
+  position: relative;
+  top: 0px;
+  background-color: #4B5D67;
+  height: 80px;
+  padding-left: 10px;
+  width: 98rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+.Gayatri{
+  background-color: #FFEEEE;
+  text-align: center;
+  color: #4B5D67;
+  width: 98rem;
+  padding-bottom: 65px;;
+
+}
+
+.Blank{
+
+  background-color: #FAD4D4;
+  height: 10px;
+  width: 98rem;
+}
+
+.Blank2{
+
+  background-color: #FAD4D4;
+  position: absolute;
+  top: 280px;
+  height: 10px;
+  width: 98rem;
+}
+
+.Box2{
+  background-color:#D6B0B1 ;
+  position: relative;
+  top: 470px;
+  width: 98rem;
+  border-radius: 20px;
+  border: 2px solid #7D5A5A;
+  text-align: justify;
+  word-spacing: 4px;
+  
+  text-align: justify;
+  color: black;
+  font-weight:800px;
+  font-family:serif
+
+  
+}
+
+.Box3{
+  background-color:#D6B0B1 ;
+  position: relative;
+  top: 7px;
+  width: 98rem;
+  border-radius: 20px;
+  border: 2px solid #7D5A5A;
+  text-align: justify;
+  word-spacing: 4px;
+  text-align: justify;
+  color:black;
+  font-weight:800px;
+  font-family:serif
+
+  
+}
+
+
+.Box4{
+  background-color:#D6B0B1 ;
+  position: relative;
+  top: 7px;
+  width: 98rem;
+  border-radius: 20px;
+  border: 2px solid #7D5A5A;
+  text-align: justify;
+  word-spacing: 4px;
+  text-align: justify;
+  color: black;
+  font-weight:800px;
+  font-family:serif
+
+  
+}
+
+.Box5{
+  background-color:#D6B0B1 ;
+  position: relative;
+  top: 7px;
+  width: 98rem;
+  border-radius: 20px;
+  border: 2px solid #7D5A5A;
+  text-align: justify;
+  word-spacing: 4px;
+  text-align: justify;
+  color: black;
+  font-weight:800px;
+  font-family:serif
+}
+
+div.polaroid {
+  position: relative;
+  color: black;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 #50a3a2, 0 6px 20px 0 #7D5A5A;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 50px 30px 10px 30px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+
+
+
+}
+
+div.container {
+  position: relative;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.HomeBox{
+  position: relative;
+  border-style: hidden;
+}
+
+
+.Paints{
+  text-align: justify;
+  width: 1000px;
+  word-wrap: break-word;
+  word-spacing: 4px;
+  margin-left: 100px;
+  color: black;
+  font-weight: 900;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  font-size: 19px;
+}
+
+div.polaroidProduct{
+
+  position: relative;
+  color: black;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 #50a3a2, 0 6px 20px 0 #7D5A5A;
+  margin-bottom: 25px;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding: 50px 30px 10px 30px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+
+}
+
+
+.ProductD{
+  background-color:#DAEAF1;
+  position: relative;
+  width: 800px;
+  margin-top: 30px;
+  margin-left: 150px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  text-align: justify;
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 800px;
+  border-color: #7D5A5A;
+  border: 2px solid;
+  word-spacing: 4px;
+}
+
+.ProductT{
+  text-align: left;
+  background-color:#DAEAF1;
+  margin-top: 50px;
+  width: 1000px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-color: #7D5A5A;
+  border: 2px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 800px;
+}
+
+
+
+
+li {
+  display:inline-table
+}
+
+.Hom{
+  position: absolute;
+  left: 560px;
+  text-decoration: none;
+  
+  padding-top: 15px;
+  width: 90px;
+  
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+  
+
+}
+
+.Con{
+  position: absolute;
+  left: 670px;
+  text-decoration: none;
+  
+  padding-top: 15px;
+  width: 90px;
+  
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+.Abo{
+  position: absolute;
+  left: 780px;
+  text-decoration: none;
+  
+  padding-top: 15px;
+  width: 90px;
+  
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+}
+
+
+
+.Pro{
+  position: absolute;
+  left: 888px;
+  text-decoration: none;
+  
+  padding-top: 15px;
+  width: 90px;
+  
+  margin-bottom: 30px;
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+}
+
